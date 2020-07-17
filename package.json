@@ -1,0 +1,25 @@
+{
+  "name": "node-red-contrib-cifs",
+  "version": "0.0.3",
+  "description": "download from smb server",
+  "main": "index.js",
+  "dependencies": {
+    "smbhash": "0.0.1"
+  },
+"node-red" : {
+        "nodes": {
+            "smb-download": "index.js"
+        }
+    },
+  "devDependencies": {
+},
+  
+  "author": "Luis Diener",
+  "license": "ISC",
+"homepage": "https://github.com/masvarn/node-red-contrib-cifs",
+"keywords" : [
+"node-red",
+"cifs",
+"smb"
+]
+}
